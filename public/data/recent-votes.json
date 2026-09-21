@@ -1,0 +1,40 @@
+{
+  "updatedAt": "2026-09-21T00:00:00.000Z",
+  "congress": "119",
+  "session": "2",
+  "note": "Sample cache. Nightly Action replaces this with live House roll-call votes from api.congress.gov/v3/house-vote.",
+  "votes": [
+    {
+      "chamber": "House",
+      "congress": "119",
+      "session": "2",
+      "voteNumber": 295,
+      "date": "2026-09-03",
+      "question": "On Passage",
+      "voteType": "Yea-and-Nay",
+      "result": "Passed",
+      "tally": "237–169",
+      "bill": "HR 4795",
+      "billTitle": "H.R.4795 — (sample) appropriations measure",
+      "billKey": "hr4795-119",
+      "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4795",
+      "voteUrl": "https://www.congress.gov/votes/house/119th-congress/2nd-session"
+    },
+    {
+      "chamber": "House",
+      "congress": "119",
+      "session": "2",
+      "voteNumber": 271,
+      "date": "2026-07-21",
+      "question": "On Passage",
+      "voteType": "Yea-and-Nay",
+      "result": "Passed",
+      "tally": "270–155",
+      "bill": "HR 6955",
+      "billTitle": "H.R.6955 — Main Street Capital Access Act",
+      "billKey": "hr6955-119",
+      "billUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6955",
+      "voteUrl": "https://www.congress.gov/votes/house/119th-congress/2nd-session"
+    }
+  ]
+}

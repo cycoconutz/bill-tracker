@@ -1,0 +1,18 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #f8fafc; color: #0f172a; }
+a { color: #1d4ed8; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
+header.top { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.badge { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: #e2e8f0; }
+.badge.house { background: #dbeafe; } .badge.senate { background: #ede9fe; }
+.badge.passed { background: #dcfce7; } .badge.failed { background: #fee2e2; }
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; margin: 12px 0; }
+.muted { color: #64748b; } .small { font-size: 13px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+input, select, button { font-size: 15px; padding: 8px 10px; border-radius: 8px; border: 1px solid #cbd5e1; }
+button { cursor: pointer; background: #0f172a; color: #fff; border-color: #0f172a; }
+button.ghost { background: #fff; color: #0f172a; }
+.evidence { border-left: 3px solid #1d4ed8; padding-left: 10px; margin: 8px 0; background: #eff6ff; border-radius: 0 8px 8px 0; }
+nav.tabs { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+footer { margin-top: 48px; }

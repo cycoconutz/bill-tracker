@@ -1,0 +1,43 @@
+{
+  "bill": "HR 6955",
+  "billKey": "hr6955-119",
+  "congress": "119",
+  "title": "H.R.6955 — Main Street Capital Access Act (sample cache)",
+  "status": "Passed House 07/21/2026 (Roll no. 271)",
+  "sponsor": "Sample — see congress.gov",
+  "committees": ["Financial Services"],
+  "crsSummary": "Sample cached entry. The nightly Action replaces this with live data from api.congress.gov.",
+  "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6955",
+  "voteHistory": [
+    { "date": "2026-07-21", "text": "On passage Passed by the Yeas and Nays: 270 - 155, 1 Present (Roll no. 271).", "voteNumber": "271" },
+    { "date": "2026-07-21", "text": "On motion to recommit Failed by the Yeas and Nays: 210 - 216 (Roll no. 270).", "voteNumber": "270" }
+  ],
+  "relatedBills": [],
+  "fullText": "",
+  "references": [
+    {
+      "title": "Congress.gov — H.R.6955 actions (roll call votes)",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6955/all-actions",
+      "whyCited": "Official vote record for Roll nos. 270–271 cited in the vote history above."
+    }
+  ],
+  "simplification": {
+    "tldr": [
+      "Sample simplification — replaced nightly by the LLM build step.",
+      "Browse structure works without keys; live data needs the Action + secrets.",
+      "Every claim in production must cite a bill section with a verbatim quote."
+    ],
+    "whatChanges": "Sample: describes what the bill changes.",
+    "whoAffected": "Sample: who is affected.",
+    "costs": "See CBO estimate (linked when available).",
+    "timeline": "Sample timeline.",
+    "sections": [
+      {
+        "heading": "Sample section",
+        "plainEnglish": "This is a placeholder so the UI renders before the first nightly run.",
+        "citations": [{ "section": "Roll no. 271", "quote": "On passage Passed by the Yeas and Nays" }]
+      }
+    ],
+    "references": []
+  }
+}

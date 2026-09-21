@@ -1,0 +1,25 @@
+{
+  "name": "bill-tracker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Federal bill tracker: recent roll-call votes, plain-English summaries with evidence, references.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:votes": "node scripts/fetch-votes.mjs",
+    "data:bills": "node scripts/fetch-bills.mjs",
+    "data:simplify": "node scripts/simplify.mjs",
+    "data": "node scripts/run-data.mjs",
+    "check:no-secrets": "node scripts/check-no-secrets.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.3.5"
+  }
+}
