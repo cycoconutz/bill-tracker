@@ -3,7 +3,7 @@
 Federal bills only. Recent **roll-call votes**, simplified with pinpoint citations, references with context. Clear, concise, accurate.
 
 ## Live demo (after you create the repo + enable Pages)
-`https://<USERNAME>.github.io/bill-tracker/`
+`https://cycoconutz.github.io/bill-tracker/`
 
 ## Key safety (important)
 - The deployed site ships **no API keys**. Browsing the cached votes works for everyone.
