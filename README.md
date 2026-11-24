@@ -2,7 +2,7 @@
 
 Federal bills only. Recent **roll-call votes**, simplified with pinpoint citations, references with context. Clear, concise, accurate.
 
-## Live demo (after you create the repo + enable Pages)
+## Live demo
 `https://cycoconutz.github.io/bill-tracker/`
 
 ## Key safety (important)
@@ -29,12 +29,8 @@ npm run data          # all three + secret check
 
 Roll-call only: the list starts from `/v3/house-vote/{congress}/{session}` (roll calls by definition) joined to `/v3/bill/...`, not from generic bill search. Senate tries `/v3/senate-vote/...` with fallback to `Record Vote Number` action scan.
 
-## Deploy to GitHub Pages (new repo)
-1. Create new repo `bill-tracker`, copy the **contents** of this `bill-tracker/` folder to the repo root (so `package.json`, `vite.config.js`, `.github/` are top-level).
-2. Set `vite.config.js base` to `/bill-tracker/` (already set).
-3. Repo Settings → Pages → Source: **GitHub Actions**.
-4. Add Secrets: `CONGRESS_API_KEY`, `LLM_API_KEY` (+ optional `LLM_BASE_URL`, `LLM_MODEL`).
-5. Push to `main` or run the workflow manually. Nightly cron refreshes data at 06:00 UTC.
+## Deploy to GitHub Pages
+The site builds and deploys automatically through the GitHub Actions workflows in `.github/workflows/` (nightly cron refreshes data at 06:00 UTC). The base path is already set in `vite.config.js`. The secrets `CONGRESS_API_KEY`, `LLM_API_KEY` (+ optional `LLM_BASE_URL`, `LLM_MODEL`) must be set as GitHub Secrets for the data pipeline.
 
 ## Caching
 - Build-time `public/data/*.json` (checked in as sample, refreshed nightly).
